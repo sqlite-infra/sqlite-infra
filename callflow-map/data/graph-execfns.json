@@ -1,0 +1,159 @@
+{
+"nodes": [
+{
+"id": "lib/sync.js::<toplevel>",
+"kind": "toplevel",
+"cat": "lib",
+"file": "lib/sync.js",
+"line": null,
+"label": "sync.js \u27e8top\u27e9",
+"loc": 413,
+"fan_in": 1,
+"fan_out": 2
+},
+{
+"id": "lib/schema.js::<toplevel>",
+"kind": "toplevel",
+"cat": "lib",
+"file": "lib/schema.js",
+"line": null,
+"label": "schema.js \u27e8top\u27e9",
+"loc": 52,
+"fan_in": 1,
+"fan_out": 0
+},
+{
+"id": "lib/database.js::<toplevel>",
+"kind": "toplevel",
+"cat": "lib",
+"file": "lib/database.js",
+"line": null,
+"label": "database.js \u27e8top\u27e9",
+"loc": 597,
+"fan_in": 1,
+"fan_out": 2
+},
+{
+"id": "lib/kv.js::<toplevel>",
+"kind": "toplevel",
+"cat": "lib",
+"file": "lib/kv.js",
+"line": null,
+"label": "kv.js \u27e8top\u27e9",
+"loc": 150,
+"fan_in": 1,
+"fan_out": 1
+},
+{
+"id": "index.js::<toplevel>",
+"kind": "toplevel",
+"cat": "entry-pkg",
+"file": "index.js",
+"line": null,
+"label": "index.js \u27e8top\u27e9",
+"loc": 41,
+"fan_in": 0,
+"fan_out": 2
+},
+{
+"id": "lib/dictionary.js::<toplevel>",
+"kind": "toplevel",
+"cat": "lib",
+"file": "lib/dictionary.js",
+"line": null,
+"label": "dictionary.js \u27e8top\u27e9",
+"loc": 364,
+"fan_in": 1,
+"fan_out": 1
+},
+{
+"id": "lib/database.js::567:<anonymous>()",
+"kind": "function",
+"cat": "lib",
+"file": "lib/database.js",
+"line": 567,
+"label": "database.js::<anonymous>()",
+"loc": 597,
+"fan_in": 1,
+"fan_out": 0
+},
+{
+"id": "lib/schema.js::14:quote()",
+"kind": "function",
+"cat": "lib",
+"file": "lib/schema.js",
+"line": 14,
+"label": "schema.js::quote()",
+"loc": 52,
+"fan_in": 1,
+"fan_out": 0
+},
+{
+"id": "lib/dictionary.js::40:deepFreeze()",
+"kind": "function",
+"cat": "lib",
+"file": "lib/dictionary.js",
+"line": 40,
+"label": "dictionary.js::deepFreeze()",
+"loc": 364,
+"fan_in": 2,
+"fan_out": 1
+}
+],
+"links": [
+{
+"source": "lib/sync.js::<toplevel>",
+"target": "lib/schema.js::<toplevel>",
+"type": "require",
+"count": 1
+},
+{
+"source": "lib/database.js::<toplevel>",
+"target": "lib/kv.js::<toplevel>",
+"type": "require",
+"count": 1
+},
+{
+"source": "index.js::<toplevel>",
+"target": "lib/sync.js::<toplevel>",
+"type": "require",
+"count": 1
+},
+{
+"source": "lib/sync.js::<toplevel>",
+"target": "lib/dictionary.js::<toplevel>",
+"type": "require",
+"count": 1
+},
+{
+"source": "index.js::<toplevel>",
+"target": "lib/database.js::<toplevel>",
+"type": "require",
+"count": 1
+},
+{
+"source": "lib/database.js::<toplevel>",
+"target": "lib/database.js::567:<anonymous>()",
+"type": "call",
+"count": 1
+},
+{
+"source": "lib/kv.js::<toplevel>",
+"target": "lib/schema.js::14:quote()",
+"type": "call",
+"count": 1
+},
+{
+"source": "lib/dictionary.js::<toplevel>",
+"target": "lib/dictionary.js::40:deepFreeze()",
+"type": "call",
+"count": 1
+},
+{
+"source": "lib/dictionary.js::40:deepFreeze()",
+"target": "lib/dictionary.js::40:deepFreeze()",
+"type": "call",
+"count": 1
+}
+]
+}

@@ -1,0 +1,1167 @@
+{
+"name": "index.js",
+"kind": "entry",
+"file": "index.js",
+"loc": 41,
+"children": [
+{
+"name": "lib/database.js",
+"kind": "module",
+"file": "lib/database.js",
+"loc": 597,
+"children": [
+{
+"name": "lib/backend.js",
+"kind": "module",
+"file": "lib/backend.js",
+"loc": 31,
+"children": [],
+"line": 35
+},
+{
+"name": "lib/sqlite-error.js",
+"kind": "module",
+"file": "lib/sqlite-error.js",
+"loc": 26,
+"children": [],
+"line": 36
+},
+{
+"name": "lib/statement.js",
+"kind": "module",
+"file": "lib/statement.js",
+"loc": 436,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module",
+"file": "lib/util.js",
+"loc": 148,
+"children": [
+{
+"name": "lib/sqlite-error.js",
+"kind": "module-ref",
+"file": "lib/sqlite-error.js",
+"loc": 26,
+"line": 19,
+"children": []
+},
+{
+"name": "lib/codes.js",
+"kind": "module",
+"file": "lib/codes.js",
+"loc": 123,
+"children": [],
+"line": 20
+},
+{
+"name": "lib/params.js",
+"kind": "module",
+"file": "lib/params.js",
+"loc": 188,
+"children": [
+{
+"name": "lib/dictionary.js",
+"kind": "module",
+"file": "lib/dictionary.js",
+"loc": 364,
+"children": [
+{
+"name": "lib/codes.js",
+"kind": "module-ref",
+"file": "lib/codes.js",
+"loc": 123,
+"line": 38,
+"children": []
+},
+{
+"name": "dictionary.js::deepFreeze()",
+"kind": "function",
+"file": "lib/dictionary.js",
+"line": 40,
+"callline": 327,
+"id": "lib/dictionary.js::40:deepFreeze()",
+"children": [],
+"recursive": true
+}
+],
+"line": 18
+}
+],
+"line": 21
+}
+],
+"line": 3
+},
+{
+"name": "lib/params.js",
+"kind": "module-ref",
+"file": "lib/params.js",
+"loc": 188,
+"line": 4,
+"children": []
+}
+],
+"line": 37
+},
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 38,
+"children": []
+},
+{
+"name": "lib/params.js",
+"kind": "module-ref",
+"file": "lib/params.js",
+"loc": 188,
+"line": 39,
+"children": []
+},
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 40,
+"children": []
+},
+{
+"name": "lib/transaction.js",
+"kind": "module",
+"file": "lib/transaction.js",
+"loc": 88,
+"children": [],
+"line": 291
+},
+{
+"name": "lib/migrate.js",
+"kind": "module",
+"file": "lib/migrate.js",
+"loc": 157,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 24,
+"children": []
+},
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 25,
+"children": []
+},
+{
+"name": "lib/schema.js",
+"kind": "module",
+"file": "lib/schema.js",
+"loc": 52,
+"children": [
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 9,
+"children": []
+}
+],
+"line": 26
+}
+],
+"line": 537
+},
+{
+"name": "lib/query.js",
+"kind": "module",
+"file": "lib/query.js",
+"loc": 359,
+"children": [
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 23,
+"children": []
+}
+],
+"line": 538
+},
+{
+"name": "lib/pipeline.js",
+"kind": "module",
+"file": "lib/pipeline.js",
+"loc": 323,
+"children": [
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 26,
+"children": []
+},
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 27,
+"children": []
+}
+],
+"line": 539
+},
+{
+"name": "lib/introspect.js",
+"kind": "module",
+"file": "lib/introspect.js",
+"loc": 162,
+"children": [
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 19,
+"children": []
+},
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 20,
+"children": []
+}
+],
+"line": 542
+},
+{
+"name": "lib/maintenance.js",
+"kind": "module",
+"file": "lib/maintenance.js",
+"loc": 172,
+"children": [
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 13,
+"children": []
+}
+],
+"line": 543
+},
+{
+"name": "lib/bulk.js",
+"kind": "module",
+"file": "lib/bulk.js",
+"loc": 59,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 18,
+"children": []
+},
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 19,
+"children": []
+}
+],
+"line": 544
+},
+{
+"name": "lib/batch.js",
+"kind": "module",
+"file": "lib/batch.js",
+"loc": 214,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 18,
+"children": []
+},
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 19,
+"children": []
+}
+],
+"line": 545
+},
+{
+"name": "lib/schema-builder.js",
+"kind": "module",
+"file": "lib/schema-builder.js",
+"loc": 188,
+"children": [
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 14,
+"children": []
+}
+],
+"line": 546
+},
+{
+"name": "lib/model.js",
+"kind": "module",
+"file": "lib/model.js",
+"loc": 299,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 17,
+"children": []
+},
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 18,
+"children": []
+}
+],
+"line": 547
+},
+{
+"name": "lib/relations.js",
+"kind": "module",
+"file": "lib/relations.js",
+"loc": 125,
+"children": [
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 29,
+"children": []
+}
+],
+"line": 548
+},
+{
+"name": "lib/diff.js",
+"kind": "module",
+"file": "lib/diff.js",
+"loc": 147,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 20,
+"children": []
+},
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 21,
+"children": []
+}
+],
+"line": 549
+},
+{
+"name": "lib/views.js",
+"kind": "module",
+"file": "lib/views.js",
+"loc": 160,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 18,
+"children": []
+},
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 19,
+"children": []
+}
+],
+"line": 550
+},
+{
+"name": "lib/audit.js",
+"kind": "module",
+"file": "lib/audit.js",
+"loc": 169,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 21,
+"children": []
+},
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 22,
+"children": []
+},
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 23,
+"children": []
+}
+],
+"line": 551
+},
+{
+"name": "lib/cache.js",
+"kind": "module",
+"file": "lib/cache.js",
+"loc": 134,
+"children": [],
+"line": 552
+},
+{
+"name": "lib/search.js",
+"kind": "module",
+"file": "lib/search.js",
+"loc": 240,
+"children": [
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 26,
+"children": []
+},
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 27,
+"children": []
+}
+],
+"line": 553
+},
+{
+"name": "lib/observe.js",
+"kind": "module",
+"file": "lib/observe.js",
+"loc": 125,
+"children": [],
+"line": 554
+},
+{
+"name": "lib/lock.js",
+"kind": "module",
+"file": "lib/lock.js",
+"loc": 129,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 17,
+"children": []
+},
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 18,
+"children": []
+},
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 19,
+"children": []
+}
+],
+"line": 555
+},
+{
+"name": "lib/json.js",
+"kind": "module",
+"file": "lib/json.js",
+"loc": 150,
+"children": [
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 14,
+"children": []
+}
+],
+"line": 556
+},
+{
+"name": "lib/retry.js",
+"kind": "module",
+"file": "lib/retry.js",
+"loc": 58,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 12,
+"children": []
+}
+],
+"line": 557
+},
+{
+"name": "lib/scope.js",
+"kind": "module",
+"file": "lib/scope.js",
+"loc": 247,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 17,
+"children": []
+},
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 18,
+"children": []
+}
+],
+"line": 558
+},
+{
+"name": "lib/timeseries.js",
+"kind": "module",
+"file": "lib/timeseries.js",
+"loc": 214,
+"children": [
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 17,
+"children": []
+}
+],
+"line": 559
+},
+{
+"name": "lib/kv.js",
+"kind": "module",
+"file": "lib/kv.js",
+"loc": 150,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 16,
+"children": []
+},
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 17,
+"children": []
+},
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 18,
+"children": []
+},
+{
+"name": "schema.js::quote()",
+"kind": "function",
+"file": "lib/schema.js",
+"line": 14,
+"callline": 21,
+"id": "lib/schema.js::14:quote()",
+"children": []
+}
+],
+"line": 560
+},
+{
+"name": "lib/typegen.js",
+"kind": "module",
+"file": "lib/typegen.js",
+"loc": 90,
+"children": [
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 13,
+"children": []
+}
+],
+"line": 561
+},
+{
+"name": "lib/partition.js",
+"kind": "module",
+"file": "lib/partition.js",
+"loc": 209,
+"children": [
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 16,
+"children": []
+}
+],
+"line": 562
+},
+{
+"name": "lib/analytics.js",
+"kind": "module",
+"file": "lib/analytics.js",
+"loc": 263,
+"children": [
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 15,
+"children": []
+}
+],
+"line": 564
+},
+{
+"name": "lib/cte.js",
+"kind": "module",
+"file": "lib/cte.js",
+"loc": 172,
+"children": [
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 23,
+"children": []
+}
+],
+"line": 566
+},
+{
+"name": "database.js::<anonymous>()",
+"kind": "function",
+"file": "lib/database.js",
+"line": 567,
+"callline": 567,
+"id": "lib/database.js::567:<anonymous>()",
+"children": []
+},
+{
+"name": "lib/setops.js",
+"kind": "module",
+"file": "lib/setops.js",
+"loc": 109,
+"children": [
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 17,
+"children": []
+}
+],
+"line": 567
+},
+{
+"name": "lib/pool.js",
+"kind": "module",
+"file": "lib/pool.js",
+"loc": 120,
+"children": [],
+"line": 573
+},
+{
+"name": "lib/scheduler.js",
+"kind": "module",
+"file": "lib/scheduler.js",
+"loc": 269,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 28,
+"children": []
+},
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 29,
+"children": []
+},
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 30,
+"children": []
+}
+],
+"line": 579
+},
+{
+"name": "lib/expr.js",
+"kind": "module",
+"file": "lib/expr.js",
+"loc": 124,
+"children": [
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 17,
+"children": []
+}
+],
+"line": 581
+},
+{
+"name": "lib/validate.js",
+"kind": "module",
+"file": "lib/validate.js",
+"loc": 208,
+"children": [],
+"line": 586
+},
+{
+"name": "lib/backup-manager.js",
+"kind": "module",
+"file": "lib/backup-manager.js",
+"loc": 188,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 26,
+"children": []
+},
+{
+"name": "lib/sync.js",
+"kind": "module",
+"file": "lib/sync.js",
+"loc": 413,
+"children": [
+{
+"name": "lib/identity.js",
+"kind": "module",
+"file": "lib/identity.js",
+"loc": 18,
+"children": [],
+"line": 59
+},
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 60,
+"children": []
+},
+{
+"name": "lib/interfaces.js",
+"kind": "module",
+"file": "lib/interfaces.js",
+"loc": 126,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 38,
+"children": []
+},
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 39,
+"children": []
+},
+{
+"name": "lib/memory-transports.js",
+"kind": "module",
+"file": "lib/memory-transports.js",
+"loc": 135,
+"children": [
+{
+"name": "lib/interfaces.js",
+"kind": "module-ref",
+"file": "lib/interfaces.js",
+"loc": 126,
+"line": 10,
+"children": []
+},
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 11,
+"children": []
+}
+],
+"line": 103
+},
+{
+"name": "lib/http-sink.js",
+"kind": "module",
+"file": "lib/http-sink.js",
+"loc": 73,
+"children": [
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 10,
+"children": []
+}
+],
+"line": 104
+}
+],
+"line": 61
+},
+{
+"name": "lib/changeset.js",
+"kind": "module",
+"file": "lib/changeset.js",
+"loc": 55,
+"children": [
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 19,
+"children": []
+}
+],
+"line": 62
+},
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 63,
+"children": []
+},
+{
+"name": "lib/staging.js",
+"kind": "module",
+"file": "lib/staging.js",
+"loc": 50,
+"children": [],
+"line": 64
+},
+{
+"name": "lib/params.js",
+"kind": "module-ref",
+"file": "lib/params.js",
+"loc": 188,
+"line": 65,
+"children": []
+},
+{
+"name": "lib/export.js",
+"kind": "module",
+"file": "lib/export.js",
+"loc": 144,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 17,
+"children": []
+},
+{
+"name": "lib/schema.js",
+"kind": "module-ref",
+"file": "lib/schema.js",
+"loc": 52,
+"line": 18,
+"children": []
+},
+{
+"name": "lib/staging.js",
+"kind": "module-ref",
+"file": "lib/staging.js",
+"loc": 50,
+"line": 19,
+"children": []
+},
+{
+"name": "lib/params.js",
+"kind": "module-ref",
+"file": "lib/params.js",
+"loc": 188,
+"line": 20,
+"children": []
+},
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 21,
+"children": []
+}
+],
+"line": 66
+},
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 67,
+"children": []
+}
+],
+"line": 27
+}
+],
+"line": 590
+}
+],
+"line": 17
+},
+{
+"name": "lib/sqlite-error.js",
+"kind": "module-ref",
+"file": "lib/sqlite-error.js",
+"loc": 26,
+"line": 18,
+"children": []
+},
+{
+"name": "lib/queue.js",
+"kind": "module",
+"file": "lib/queue.js",
+"loc": 359,
+"children": [
+{
+"name": "lib/identity.js",
+"kind": "module-ref",
+"file": "lib/identity.js",
+"loc": 18,
+"line": 48,
+"children": []
+},
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 49,
+"children": []
+},
+{
+"name": "lib/interfaces.js",
+"kind": "module-ref",
+"file": "lib/interfaces.js",
+"loc": 126,
+"line": 50,
+"children": []
+},
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 51,
+"children": []
+}
+],
+"line": 19
+},
+{
+"name": "lib/consumer.js",
+"kind": "module",
+"file": "lib/consumer.js",
+"loc": 298,
+"children": [
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 41,
+"children": []
+},
+{
+"name": "lib/interfaces.js",
+"kind": "module-ref",
+"file": "lib/interfaces.js",
+"loc": 126,
+"line": 42,
+"children": []
+},
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 43,
+"children": []
+}
+],
+"line": 20
+},
+{
+"name": "lib/sync.js",
+"kind": "module-ref",
+"file": "lib/sync.js",
+"loc": 413,
+"line": 21,
+"children": []
+},
+{
+"name": "lib/interfaces.js",
+"kind": "module-ref",
+"file": "lib/interfaces.js",
+"loc": 126,
+"line": 22,
+"children": []
+},
+{
+"name": "lib/importer.js",
+"kind": "module",
+"file": "lib/importer.js",
+"loc": 431,
+"children": [
+{
+"name": "lib/backend.js",
+"kind": "module-ref",
+"file": "lib/backend.js",
+"loc": 31,
+"line": 39,
+"children": []
+},
+{
+"name": "lib/util.js",
+"kind": "module-ref",
+"file": "lib/util.js",
+"loc": 148,
+"line": 40,
+"children": []
+},
+{
+"name": "lib/interfaces.js",
+"kind": "module-ref",
+"file": "lib/interfaces.js",
+"loc": 126,
+"line": 41,
+"children": []
+},
+{
+"name": "lib/changeset.js",
+"kind": "module-ref",
+"file": "lib/changeset.js",
+"loc": 55,
+"line": 42,
+"children": []
+},
+{
+"name": "lib/dictionary.js",
+"kind": "module-ref",
+"file": "lib/dictionary.js",
+"loc": 364,
+"line": 43,
+"children": []
+}
+],
+"line": 23
+}
+]
+}

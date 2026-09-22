@@ -1,0 +1,1064 @@
+{
+"nodes": [
+{
+"id": "index.js",
+"cat": "entry-pkg",
+"fan_in": 0,
+"fan_out": 7,
+"loc": 41
+},
+{
+"id": "lib/analytics.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 1,
+"loc": 263
+},
+{
+"id": "lib/audit.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 3,
+"loc": 169
+},
+{
+"id": "lib/backend.js",
+"cat": "lib",
+"fan_in": 2,
+"fan_out": 0,
+"loc": 31
+},
+{
+"id": "lib/backup-manager.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 2,
+"loc": 188
+},
+{
+"id": "lib/batch.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 2,
+"loc": 214
+},
+{
+"id": "lib/bulk.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 2,
+"loc": 59
+},
+{
+"id": "lib/cache.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 0,
+"loc": 134
+},
+{
+"id": "lib/changeset.js",
+"cat": "lib",
+"fan_in": 2,
+"fan_out": 1,
+"loc": 55
+},
+{
+"id": "lib/codes.js",
+"cat": "lib",
+"fan_in": 2,
+"fan_out": 0,
+"loc": 123
+},
+{
+"id": "lib/consumer.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 3,
+"loc": 298
+},
+{
+"id": "lib/cte.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 1,
+"loc": 172
+},
+{
+"id": "lib/database.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 39,
+"loc": 597
+},
+{
+"id": "lib/dictionary.js",
+"cat": "lib",
+"fan_in": 19,
+"fan_out": 1,
+"loc": 364
+},
+{
+"id": "lib/diff.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 2,
+"loc": 147
+},
+{
+"id": "lib/export.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 5,
+"loc": 144
+},
+{
+"id": "lib/expr.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 1,
+"loc": 124
+},
+{
+"id": "lib/http-sink.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 1,
+"loc": 73
+},
+{
+"id": "lib/identity.js",
+"cat": "lib",
+"fan_in": 2,
+"fan_out": 0,
+"loc": 18
+},
+{
+"id": "lib/importer.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 5,
+"loc": 431
+},
+{
+"id": "lib/interfaces.js",
+"cat": "lib",
+"fan_in": 6,
+"fan_out": 4,
+"loc": 126
+},
+{
+"id": "lib/introspect.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 2,
+"loc": 162
+},
+{
+"id": "lib/json.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 1,
+"loc": 150
+},
+{
+"id": "lib/kv.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 3,
+"loc": 150
+},
+{
+"id": "lib/lock.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 3,
+"loc": 129
+},
+{
+"id": "lib/maintenance.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 1,
+"loc": 172
+},
+{
+"id": "lib/memory-transports.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 2,
+"loc": 135
+},
+{
+"id": "lib/migrate.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 3,
+"loc": 157
+},
+{
+"id": "lib/model.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 2,
+"loc": 299
+},
+{
+"id": "lib/observe.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 0,
+"loc": 125
+},
+{
+"id": "lib/params.js",
+"cat": "lib",
+"fan_in": 5,
+"fan_out": 1,
+"loc": 188
+},
+{
+"id": "lib/partition.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 1,
+"loc": 209
+},
+{
+"id": "lib/pipeline.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 2,
+"loc": 323
+},
+{
+"id": "lib/pool.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 0,
+"loc": 120
+},
+{
+"id": "lib/query.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 1,
+"loc": 359
+},
+{
+"id": "lib/queue.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 4,
+"loc": 359
+},
+{
+"id": "lib/relations.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 1,
+"loc": 125
+},
+{
+"id": "lib/retry.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 1,
+"loc": 58
+},
+{
+"id": "lib/scheduler.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 3,
+"loc": 269
+},
+{
+"id": "lib/schema-builder.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 1,
+"loc": 188
+},
+{
+"id": "lib/schema.js",
+"cat": "lib",
+"fan_in": 28,
+"fan_out": 1,
+"loc": 52
+},
+{
+"id": "lib/scope.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 2,
+"loc": 247
+},
+{
+"id": "lib/search.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 2,
+"loc": 240
+},
+{
+"id": "lib/setops.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 1,
+"loc": 109
+},
+{
+"id": "lib/sqlite-error.js",
+"cat": "lib",
+"fan_in": 3,
+"fan_out": 0,
+"loc": 26
+},
+{
+"id": "lib/staging.js",
+"cat": "lib",
+"fan_in": 2,
+"fan_out": 0,
+"loc": 50
+},
+{
+"id": "lib/statement.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 2,
+"loc": 436
+},
+{
+"id": "lib/sync.js",
+"cat": "lib",
+"fan_in": 2,
+"fan_out": 9,
+"loc": 413
+},
+{
+"id": "lib/timeseries.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 1,
+"loc": 214
+},
+{
+"id": "lib/transaction.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 0,
+"loc": 88
+},
+{
+"id": "lib/typegen.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 1,
+"loc": 90
+},
+{
+"id": "lib/util.js",
+"cat": "lib",
+"fan_in": 22,
+"fan_out": 3,
+"loc": 148
+},
+{
+"id": "lib/validate.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 0,
+"loc": 208
+},
+{
+"id": "lib/views.js",
+"cat": "lib",
+"fan_in": 1,
+"fan_out": 2,
+"loc": 160
+}
+],
+"links": [
+{
+"source": "index.js",
+"target": "lib/consumer.js",
+"count": 2
+},
+{
+"source": "index.js",
+"target": "lib/database.js",
+"count": 1
+},
+{
+"source": "index.js",
+"target": "lib/importer.js",
+"count": 2
+},
+{
+"source": "index.js",
+"target": "lib/interfaces.js",
+"count": 2
+},
+{
+"source": "index.js",
+"target": "lib/queue.js",
+"count": 2
+},
+{
+"source": "index.js",
+"target": "lib/sqlite-error.js",
+"count": 1
+},
+{
+"source": "index.js",
+"target": "lib/sync.js",
+"count": 2
+},
+{
+"source": "lib/analytics.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/audit.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/audit.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/audit.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/backup-manager.js",
+"target": "lib/sync.js",
+"count": 2
+},
+{
+"source": "lib/backup-manager.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/batch.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/batch.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/bulk.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/bulk.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/changeset.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/consumer.js",
+"target": "lib/interfaces.js",
+"count": 2
+},
+{
+"source": "lib/consumer.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/consumer.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/cte.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/analytics.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/audit.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/backend.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/backup-manager.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/batch.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/bulk.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/cte.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/diff.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/expr.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/introspect.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/json.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/kv.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/lock.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/maintenance.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/migrate.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/model.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/params.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/partition.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/pipeline.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/pool.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/query.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/relations.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/retry.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/scheduler.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/schema-builder.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/scope.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/search.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/setops.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/sqlite-error.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/statement.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/timeseries.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/transaction.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/typegen.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/validate.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/views.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/cache.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/database.js",
+"target": "lib/observe.js",
+"count": 1
+},
+{
+"source": "lib/diff.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/diff.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/export.js",
+"target": "lib/params.js",
+"count": 1
+},
+{
+"source": "lib/export.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/export.js",
+"target": "lib/staging.js",
+"count": 1
+},
+{
+"source": "lib/export.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/export.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/expr.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/http-sink.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/importer.js",
+"target": "lib/backend.js",
+"count": 1
+},
+{
+"source": "lib/importer.js",
+"target": "lib/changeset.js",
+"count": 1
+},
+{
+"source": "lib/importer.js",
+"target": "lib/interfaces.js",
+"count": 2
+},
+{
+"source": "lib/importer.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/importer.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/interfaces.js",
+"target": "lib/http-sink.js",
+"count": 1
+},
+{
+"source": "lib/interfaces.js",
+"target": "lib/memory-transports.js",
+"count": 1
+},
+{
+"source": "lib/interfaces.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/interfaces.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/introspect.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/introspect.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/json.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/kv.js",
+"target": "lib/schema.js",
+"count": 2
+},
+{
+"source": "lib/kv.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/kv.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/lock.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/lock.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/lock.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/maintenance.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/memory-transports.js",
+"target": "lib/interfaces.js",
+"count": 2
+},
+{
+"source": "lib/memory-transports.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/migrate.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/migrate.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/migrate.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/model.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/model.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/params.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/partition.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/pipeline.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/pipeline.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/query.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/queue.js",
+"target": "lib/identity.js",
+"count": 1
+},
+{
+"source": "lib/queue.js",
+"target": "lib/interfaces.js",
+"count": 2
+},
+{
+"source": "lib/queue.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/queue.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/relations.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/retry.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/scheduler.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/scheduler.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/scheduler.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/schema-builder.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/schema.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/scope.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/scope.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/search.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/search.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/setops.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/statement.js",
+"target": "lib/params.js",
+"count": 1
+},
+{
+"source": "lib/statement.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/sync.js",
+"target": "lib/changeset.js",
+"count": 1
+},
+{
+"source": "lib/sync.js",
+"target": "lib/export.js",
+"count": 1
+},
+{
+"source": "lib/sync.js",
+"target": "lib/identity.js",
+"count": 1
+},
+{
+"source": "lib/sync.js",
+"target": "lib/interfaces.js",
+"count": 2
+},
+{
+"source": "lib/sync.js",
+"target": "lib/params.js",
+"count": 1
+},
+{
+"source": "lib/sync.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/sync.js",
+"target": "lib/staging.js",
+"count": 1
+},
+{
+"source": "lib/sync.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/sync.js",
+"target": "lib/dictionary.js",
+"count": 1
+},
+{
+"source": "lib/timeseries.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/typegen.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/util.js",
+"target": "lib/codes.js",
+"count": 1
+},
+{
+"source": "lib/util.js",
+"target": "lib/params.js",
+"count": 1
+},
+{
+"source": "lib/util.js",
+"target": "lib/sqlite-error.js",
+"count": 1
+},
+{
+"source": "lib/views.js",
+"target": "lib/schema.js",
+"count": 1
+},
+{
+"source": "lib/views.js",
+"target": "lib/util.js",
+"count": 1
+},
+{
+"source": "lib/dictionary.js",
+"target": "lib/codes.js",
+"count": 1
+}
+]
+}

@@ -1,0 +1,5 @@
+"from_container","to_container","from_file","to_file"
+"lib/database.js::<toplevel>","lib/database.js::567:<anonymous>()","lib/database.js","lib/database.js"
+"lib/kv.js::<toplevel>","lib/schema.js::14:quote()","lib/kv.js","lib/schema.js"
+"lib/dictionary.js::<toplevel>","lib/dictionary.js::40:deepFreeze()","lib/dictionary.js","lib/dictionary.js"
+"lib/dictionary.js::40:deepFreeze()","lib/dictionary.js::40:deepFreeze()","lib/dictionary.js","lib/dictionary.js"
