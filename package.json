@@ -1,0 +1,38 @@
+{
+  "name": "better-sqlite3",
+  "version": "1.2.2",
+  "description": "The better-sqlite3 API on top of Node's built-in node:sqlite. No native build step.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib/"
+  ],
+  "scripts": {
+    "test": "node --test test/test.js test/test-collision.js test/test-dictionary.js test/test-consumer.js test/test-importer.js test/test-interfaces.js test/test-queue.js test/test-sync.js test/test-db-infra.js test/test-restore.js test/test-sinks.js test/test-query.js test/test-schema-builder.js test/test-model.js test/test-pool.js test/test-pipeline.js test/test-analytics.js test/test-relations.js test/test-diff.js test/test-scheduler.js test/test-expr.js test/test-batch.js test/test-cte.js test/test-views.js test/test-audit.js test/test-cache.js test/test-validate.js test/test-search.js test/test-observe.js test/test-setops.js test/test-timeseries.js test/test-scope.js test/test-backup-manager.js test/test-json.js test/test-lock.js test/test-kv.js test/test-typegen.js test/test-retry.js test/test-partition.js",
+    "test:types": "tsc -p tsconfig.json",
+    "test:matrix": "npx -y node@22 --test test/test.js && npx -y node@24 --test test/test.js",
+    "test:conformance": "node scripts/conformance.js",
+    "test:adapters": "node --test adapters/test.js adapters/test-gcp.js adapters/test-azure.js adapters/test-parity.js adapters/test-kafka.js adapters/test-redis.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "chai": "4.5.0",
+    "fs-extra": "11.4.0",
+    "mocha": "11.8.0",
+    "typescript": "^5.9.0"
+  },
+  "keywords": [
+    "sqlite",
+    "sqlite3",
+    "better-sqlite3",
+    "node:sqlite",
+    "database",
+    "sql"
+  ],
+  "license": "MIT"
+}
