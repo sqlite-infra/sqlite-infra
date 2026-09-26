@@ -1,0 +1,35 @@
+{
+  "name": "better-sqlite-adapters",
+  "version": "0.1.0",
+  "description": "AWS-backed adapters for better-sqlite's cloud export, import and event queue interfaces: an object store, message sinks (queue, topic, event bus, stream) and a queue source.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "config.js",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "peerDependencies": {
+    "@aws-sdk/client-eventbridge": "^3.0.0",
+    "@aws-sdk/client-kinesis": "^3.0.0",
+    "@aws-sdk/client-s3": "^3.0.0",
+    "@aws-sdk/client-sns": "^3.0.0",
+    "@aws-sdk/client-sqs": "^3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@aws-sdk/client-eventbridge": { "optional": true },
+    "@aws-sdk/client-kinesis": { "optional": true },
+    "@aws-sdk/client-s3": { "optional": true },
+    "@aws-sdk/client-sns": { "optional": true },
+    "@aws-sdk/client-sqs": { "optional": true }
+  },
+  "keywords": ["sqlite", "better-sqlite", "adapters", "object-store", "message-queue", "queue", "backup"],
+  "license": "MIT"
+}
