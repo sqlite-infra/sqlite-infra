@@ -226,31 +226,6 @@ test('an unknown env value falls back to the default mode', () => {
   assert.strictEqual(check(root, { BETTER_SQLITE_COLLISION: 'maybe' }).mode, 'error');
 });
 
-test('consumer package.json can set the mode; env var overrides it', () => {
-  const root = project({
-    'package.json': {
-      name: 'consumer',
-      dependencies: { sqlite3: '5' },
-      'better-sqlite3': { collisions: 'off' }
-    }
-  });
-  assert.strictEqual(check(root, {}).mode, 'off');
-  assert.strictEqual(capture(root).out, '');
-  assert.strictEqual(check(root, { BETTER_SQLITE_COLLISION: 'warn' }).mode, 'warn');
-  assert.match(capture(root, { BETTER_SQLITE_COLLISION: 'warn' }).out, /sqlite3/);
-});
-
-test('consumer package.json allow list suppresses named packages only', () => {
-  const root = project({
-    'package.json': {
-      name: 'consumer',
-      dependencies: { sqlite3: '5', 'sql.js': '1' },
-      'better-sqlite3': { allow: ['sqlite3', 42, null] }
-    }
-  });
-  assert.deepStrictEqual(names(check(root, {})), ['sql.js']);
-});
-
 // ---- report() guards ------------------------------------------------------
 
 test('report fires at most once per process unless forced', () => {

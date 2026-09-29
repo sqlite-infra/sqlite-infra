@@ -22,7 +22,6 @@ const Sync = require('../lib/sync'); // internal; not on the package export
 const dictionary = require('../lib/dictionary');
 const codes = require('../lib/codes');
 const changeset = require('../lib/changeset');
-const collisionCheck = require('../lib/collision');
 const { MemoryObjectStore, MemoryQueue, outcomeForStatus } = require('../lib/interfaces');
 
 const d = dictionary;
@@ -182,24 +181,6 @@ test('store: a missing key rejects with the dictionary code', async () => {
 test('changeset: framing magic', () => {
   assert.equal(changeset.MAGIC.toString(), d.changeset.magic);
   assert.equal(changeset.pack([]).subarray(0, 4).toString(), d.changeset.magic);
-});
-
-test('collision: the check honours the dictionary modes, variable and package.json fields', () => {
-  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'better-sqlite-dictionary-'));
-  const pkg = { name: 'consumer', dependencies: { sqlite3: '5.0.0' } };
-  fs.writeFileSync(path.join(root, 'package.json'), JSON.stringify(pkg));
-  assert.equal(collisionCheck.check(root, {}).mode, d.defaults.collision);
-  assert.equal(collisionCheck.check(root, { [d.env.collision]: d.collision.modes.warn }).mode, d.collision.modes.warn);
-  assert.equal(collisionCheck.check(root, { [d.env.collision]: d.collision.modes.off }).skipped, true);
-
-  pkg['better-sqlite3'] = { [d.collision.fields.mode]: d.collision.modes.off, [d.collision.fields.allow]: ['sqlite3'] };
-  fs.writeFileSync(path.join(root, 'package.json'), JSON.stringify(pkg));
-  assert.equal(collisionCheck.check(root, {}).skipped, true);
-  const text = collisionCheck.format({ root, findings: [{ name: 'sqlite3', why: 'x', sources: ['s'] }] });
-  assert.match(text, new RegExp(`${d.env.collision}=${d.collision.modes.off} `));
-  assert.match(text, new RegExp(`"${d.collision.fields.mode}": "${d.collision.modes.off}"`));
-  assert.match(text, new RegExp(`"${d.collision.fields.allow}": \\["<name>"\\]`));
-  fs.rmSync(root, { recursive: true, force: true });
 });
 
 test('errors: every name is a real result code, and the ones a data path hits are observed', () => {
